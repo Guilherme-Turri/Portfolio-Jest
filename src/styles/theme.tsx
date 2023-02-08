@@ -13,9 +13,11 @@ export const theme = {
   },
   sizes:{
     small: '1.2rem',
+    nsmall:'1.35rem',
+    lessMedium:'1.6rem',
     medium:'2rem',
     large:'3rem',
     xlarge:'4rem'
-  }
+  },
 }
   

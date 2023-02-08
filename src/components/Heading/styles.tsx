@@ -8,5 +8,11 @@ color: ${colorDark? theme.colors.primaryColor : theme.colors.secondaryColor};
 font-size: ${as === 'h1' || as === 'h2'  ? theme.sizes.xlarge : theme.sizes.medium };
 font-family: ${theme.fonts.secondaryFont};
 margin-top: 1rem;
+@media (max-width: 940px) {
+  font-size: ${as === 'h1' || as === 'h2'  ? theme.sizes.medium : theme.sizes.small };
+
+ }
 `}
 `
+
+

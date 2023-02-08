@@ -5,6 +5,6 @@ export interface CircleProp {
 }
 export const Circles:React.FC<CircleProp> = ({color}) => {
   return (
-    <Styled.Container color={color}></Styled.Container>
+    <Styled.Container data-testid="circle-container" color={color}></Styled.Container>
   )
 }

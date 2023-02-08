@@ -1,14 +1,14 @@
 import React from 'react'
 import * as Styled from './styles'
 
-type Props = {
-  children: React.ReactNode
+interface BackGroundProps {
+  children: React.ReactNode;
   background:boolean;
-  fill:boolean
+  fill: boolean
 }
 
 
-export const SectionBackground:React.FC<Props> = ({children, background, fill}) => {
+export const SectionBackground:React.FC<BackGroundProps> = ({children, background, fill}) => {
   return (
     <Styled.Container fill={fill} background={background}>
       {children}

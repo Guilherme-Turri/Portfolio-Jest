@@ -23,6 +23,8 @@ box-shadow: ${colorDark? `-7px 7px 18px #3a3c4d,
 
 @media (max-width: 940px) {
   width: 100%;
+  padding: 0.1rem;
+  
  }
 `}
 `
@@ -32,6 +34,7 @@ ${({theme}) => css`
   padding-bottom: 1rem;
   @media (max-width: 940px) {
   font-size: 1rem;
+  
  }
 `}
 `

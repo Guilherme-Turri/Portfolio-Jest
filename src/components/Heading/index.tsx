@@ -9,12 +9,15 @@ export interface PropHeading {
 }
 
 
-export const Heading:React.FC<PropHeading> = ({children, uppercase, colorDark, as='h1'}) => {
+export const Heading:React.FC<PropHeading> = ({children, uppercase, colorDark, as}) => {
   return (
-
-    <Styled.Container colorDark={colorDark} uppercase={uppercase} as={as}>
+    
+   <Styled.Container colorDark={colorDark} uppercase={uppercase} as={as}>
       {children}
+   
       </Styled.Container>
 
+
+   
   )
 }

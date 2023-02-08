@@ -14,7 +14,7 @@ interface AboutProps{
 
 
 export const About:React.FC<AboutProps> = ({background, fill}) => {
-console.log(mock.cursos)
+
 
   return (
     <SectionBackground background={background} fill={fill}>
@@ -23,7 +23,7 @@ console.log(mock.cursos)
           Formação Academica
         </Heading>
         <Heading as='h3' uppercase={false} colorDark={!background}>
-          {mock.formacao.curso} <TextComponent size='small'>{mock.formacao.conclusao}</TextComponent>
+          {mock.formacao.curso} <TextComponent size='normal'>{mock.formacao.conclusao}</TextComponent>
         </Heading>
         <Heading as='h2' uppercase={false} colorDark={!background}>
           Cursos

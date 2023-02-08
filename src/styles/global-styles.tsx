@@ -10,10 +10,12 @@ export const GlobalStyles = createGlobalStyle`
 
   html {
     scroll-behavior: smooth;
+    width: 100%;
   }
-  
+
+    
   body{
     font-family: ${theme.fonts.mainFont};
+
   }
-  
 `;
